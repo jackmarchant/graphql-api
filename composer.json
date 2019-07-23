@@ -1,5 +1,6 @@
 {
     "name": "jackmarchant/php-template",
+    "description": "A PHP Template for building web apps",
     "autoload": {
         "psr-4": {
             "App\\": "app/"
@@ -15,5 +16,11 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
+    },
+    "require": {
+        "webonyx/graphql-php": "^0.13.5",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "php": ">= 7.2"
     }
 }
